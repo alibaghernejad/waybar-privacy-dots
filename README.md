@@ -3,6 +3,8 @@
 A privacy-first module for your status bar.  
 Displays the status of your microphone, camera, and location with beautiful colored dots.
 
+![Status dots displayed in Waybar showing microphone, camera, and location indicators in green, orange, and blue](./assets/waybar-privacy-dots.png)
+
 ## Capabilities
 
 - **Mic Status:** Shows a green dot (<span style="color:#30D158;">●</span>) when any microphone is in use.
