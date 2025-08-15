@@ -52,9 +52,8 @@
     "clock": {
         "format": "{:%A %H:%M}",
         "format-alt": "{:%d %B W%V %Y}",
-        "tooltip": false,
-        "on-click-right": "omarchy-cmd-tzupdate"
-    },
+        "tooltip": false
+        },
     "network": {
         "format-icons": [
             "󰤯",
