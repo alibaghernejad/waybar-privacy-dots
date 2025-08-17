@@ -35,7 +35,7 @@ mkdir scripts
 
 2. Then download and locate the `privacydots.sh` script in the scripts folder:
 ```shell
-curl -o ~/.config/waybar/scripts/privacydots.sh https://raw.githubusercontent.com/your-username/waybar-privacy-dots/main/privacydots.sh
+curl -o ~/.config/waybar/scripts/privacydots.sh https://raw.githubusercontent.com/alibaghernejad/waybar-privacy-dots/main/privacydots.sh
 chmod +x ~/.config/waybar/scripts/privacydots.sh
 ```
 3. Add the `privacydots` module to your waybar configuration file (`~/.config/waybar/config`). Here's a sample configuration:
@@ -65,9 +65,13 @@ A complete example configuration might look like this [sample configuration](/co
 
 
 ## Optional Styling
-By default the base colors are set in `privacydots.sh` file, so there is no need for extra styling inside `style.css` file. But if wou want you can fine tune the rendered dots based on your preferences.
+By default, colors are defined in the `privacydots.sh` script. However, you can customize the appearance of the dots by adding CSS styles.
 
-Make sure the `style.css` file is exists and add this sample styling to the end of the file. A full styling file  can be sound [here](/config/waybar/style.css) at repo.
+Add these optional styles to your `~/.config/waybar/style.css`:
+A complete example styling file is available in the repository [here](/config/waybar/style.css).
+
+Add these optional styles to your `~/.config/waybar/style.css`:
+
 ```css
 #custom-privacydots {
   padding: 0 6px;
