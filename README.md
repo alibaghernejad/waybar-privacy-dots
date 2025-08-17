@@ -65,3 +65,22 @@ A complete example configuration might look like this [sample configuration](/co
 
 
 ## Optional Styling
+By default the base colors are set in `privacydots.sh` file, so there is no need for extra styling inside `style.css` file. But if wou want you can fine tune the rendered dots based on your preferences.
+
+Make sure the `style.css` file is exists and add this sample styling to the end of the file. A full styling file  can be sound [here](/config/waybar/style.css) at repo.
+```css
+#custom-privacydots {
+  padding: 0 6px;
+  /* size of the dots */
+  font-size: 9px;
+  /* space between dots */
+  letter-spacing: 1px;
+  /* dots colored ring */
+  /* comment/uncomment to enable/disable the colored ring. */
+  /* text-shadow:
+      -1px -1px 0 #000000,
+       1px -1px 0 #000000,
+      -1px  1px 0 #000000,
+       1px  1px 0 #000000; */
+}
+```
