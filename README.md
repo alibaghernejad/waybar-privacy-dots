@@ -34,7 +34,7 @@ mkdir -p ~/.config/waybar/scripts
 
 2. Then download and locate the `privacydots.sh` script in the scripts folder:
 ```shell
-curl -o ~/.config/waybar/scripts/privacydots.sh https://raw.githubusercontent.com/alibaghernejad/waybar-privacy-dots/main/privacydots.sh
+curl -o ~/.config/waybar/scripts/privacydots.sh https://raw.githubusercontent.com/alibaghernejad/waybar-privacy-dots/main/config/waybar/scripts/privacydots.sh
 chmod +x ~/.config/waybar/scripts/privacydots.sh
 ```
 3. Add the `privacydots` module to your waybar configuration file (`~/.config/waybar/config`). Here's a sample configuration:
