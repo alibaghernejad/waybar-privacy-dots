@@ -20,7 +20,7 @@ Colors and polling interval are configurable.
 
 | mic | cam | loc | inactive | interval |
 |-----|-----|-----|----------|----------|
-| <span style="color:#30D158;">●</span> | <span style="color:#FF9F0A;">●</span> | <span style="color:#0A84FF;">●</span> | <span style="color:#555555;">●</span> | 3 sec |
+| ![microphone](/assets/green.png) | ![camera](/assets/orange.png) | ![location](/assets/blue.png) | ![inactive](/assets/gray.png) | 3 sec |
 
 
 ## Installation
