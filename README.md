@@ -22,3 +22,14 @@ Colors and polling interval are configurable.
 |-----|-----|-----|----------|----------|
 | <span style="color:#30D158;">●</span> | <span style="color:#FF9F0A;">●</span> | <span style="color:#0A84FF;">●</span> | <span style="color:#555555;">●</span> | 3 sec |
 
+
+## Installation
+
+Make sure `waybar` is installed on your system, then follow these steps to set up the privacy dots module:
+
+1. Create the scripts directory in your waybar config folder:
+```shell
+cd ~/.config/waybar 
+mkdir scripts
+```
+
