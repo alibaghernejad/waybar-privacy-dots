@@ -7,9 +7,9 @@ Displays the status of your microphone, camera, and location with beautiful colo
 
 ## Capabilities
 
-- **Mic Status:** Shows a green dot (<span style="color:#30D158;">●</span>) when any microphone is in use.
-- **Cam Status:** Shows an orange dot (<span style="color:#FF9F0A;">●</span>) when any camera is active.
-- **Loc Status:** Shows a blue dot (<span style="color:#0A84FF;">●</span>) when location services are in use.
+- **Mic Status:** Shows a green dot when any microphone is in use.
+- **Cam Status:** Shows an orange dot when any camera is active.
+- **Loc Status:** Shows a blue dot when location services are in use.
 - **Easy to Customize:** Add new statuses or change colors easily. The functionality is handled by a simple Bash script, and styling is managed with CSS.
 
 ## Defaults
@@ -29,8 +29,7 @@ Make sure `waybar` is installed on your system, then follow these steps to set u
 
 1. Create the scripts directory in your waybar config folder:
 ```shell
-cd ~/.config/waybar 
-mkdir scripts
+mkdir -p ~/.config/waybar/scripts
 ```
 
 2. Then download and locate the `privacydots.sh` script in the scripts folder:
